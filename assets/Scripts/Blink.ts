@@ -1,5 +1,5 @@
 
-import { _decorator, Component, Node,Animation } from 'cc';
+import { _decorator, Component, Node,Animation, Sprite, Color } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Blink')
@@ -20,7 +20,8 @@ ani: Animation= new Animation;
     }
     public stopBlinking()
     {
-
+        var sprit =this.node.getComponent(Sprite);
+        sprit.color=new Color(255,255,255);
         this.ani.stop();
     }
 

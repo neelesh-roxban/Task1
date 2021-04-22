@@ -951,7 +951,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "timerAmount": 7,
+    "timerAmount": 20,
     "clock": {
       "__id__": 29
     },

@@ -63,6 +63,7 @@ export class Timer extends Component
      this.timerAmount=20;
      this.isTimerCompletet=false;
      this.clock.stopBlinking();
+     
  }
 
 }
